@@ -46,8 +46,7 @@
                       <input type="text" class="form-control mb-2" id="searchField" placeholder="Search"
                         aria-label="Search" aria-describedby="basic-addon2" />
                       <div class="input-group-append" style="margin-bottom: 4%">
-                        <button class="btn btn-outline-secondary btn-sm" type="button" id="button-search"
-                          onclick="search()">
+                        <button class="btn btn-outline-secondary btn-sm" type="button" id="button-search" >
                           GO
                         </button>
                       </div>
@@ -79,9 +78,10 @@
             <a href="#">DISCOVER</a>
           </div>
         </div>
+
         <div class="row">
           <div class="col-10">
-            <div id="searchResults" style="display: none">
+            <div id="searchResults" class="d-none ">
               <h2>Search Results</h2>
               <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"></div>
             </div>
@@ -164,6 +164,7 @@
       </div>
     </div>
   </div>
+  <!-- Scrollable modal -->
   <!--END NAVBAR BOTTOM-->
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
